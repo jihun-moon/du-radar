@@ -1,0 +1,1130 @@
+{
+  "meta": {
+    "service": "DU Radar",
+    "area": {
+      "ko": "대구대학교 경산캠퍼스",
+      "en": "Daegu University Gyeongsan Campus"
+    },
+    "source": "campus-map.json building centers",
+    "createdAt": "2026-09-17",
+    "locationNote": {
+      "ko": "건물 좌표 옆에 찍은 시작 데이터이며 정확한 위치가 아니에요.",
+      "en": "Starter locations placed beside building coordinates and not exact."
+    },
+    "positionSuggestionRule": {
+      "requiredSuggestions": 3,
+      "status": "위치 확인 필요"
+    },
+    "loungeUpdate": "2026-09-17",
+    "locationUpdate": "2026-09-17",
+    "additionalUpdate": "2026-09-17",
+    "venueUpdate": "2026-09-17"
+  },
+  "spots": [
+    {
+      "id": "cafe-paris-baguette",
+      "type": "cafe",
+      "name": {
+        "ko": "파리바게뜨",
+        "en": "Paris Baguette"
+      },
+      "nearbyBuilding": {
+        "ko": "자연과학생명관",
+        "en": "Natural Science and Life Building"
+      },
+      "buildingOsmId": 115823456,
+      "location": {
+        "lat": 35.89912,
+        "lon": 128.84836,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": true,
+      "matchNote": "과학생명융합대학 3호관과 지도 건물명이 달라 자연과학생명관을 임시 기준으로 사용해요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "08:30",
+        "close": "18:30"
+      }
+    },
+    {
+      "id": "cafe-mies-container",
+      "type": "cafe",
+      "name": {
+        "ko": "미즈컨테이너",
+        "en": "Mies Container"
+      },
+      "nearbyBuilding": {
+        "ko": "제1학생회관",
+        "en": "Student Center 1"
+      },
+      "buildingOsmId": 115823454,
+      "location": {
+        "lat": 35.90128,
+        "lon": 128.8468,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": true,
+      "matchNote": "지도에서는 제1학생회관으로 연결했어요. 실제 명칭은 웅지관이에요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "10:30",
+        "close": "19:30"
+      }
+    },
+    {
+      "id": "cafe-starbucks",
+      "type": "cafe",
+      "name": {
+        "ko": "스타벅스",
+        "en": "Starbucks"
+      },
+      "nearbyBuilding": {
+        "ko": "행복기숙사 상가",
+        "en": "Happy Residence Hall Shops"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.8979,
+        "lon": 128.85,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": true,
+      "matchNote": "지도에 행복기숙사 상가 건물이 없어 정문 오른쪽 캠퍼스 안쪽에 대략 표시해요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "08:00",
+        "close": "22:00"
+      }
+    },
+    {
+      "id": "cafe-momstouch",
+      "type": "cafe",
+      "name": {
+        "ko": "맘스터치",
+        "en": "Mom's Touch"
+      },
+      "nearbyBuilding": {
+        "ko": "정문 앞 길 건너",
+        "en": "Across the road from the main gate"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.89727,
+        "lon": 128.84843,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "cafe-bulk",
+      "type": "cafe",
+      "name": {
+        "ko": "벌크커피",
+        "en": "Bulk Coffee"
+      },
+      "nearbyBuilding": {
+        "ko": "입지 생활관 쪽",
+        "en": "Near Ipji Residence Hall"
+      },
+      "buildingOsmId": 115711985,
+      "location": {
+        "lat": 35.9055,
+        "lon": 128.84476,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "store-gs25",
+      "type": "convenience",
+      "name": {
+        "ko": "GS25",
+        "en": "GS25"
+      },
+      "nearbyBuilding": {
+        "ko": "정문 앞 길 건너",
+        "en": "Across the road from the main gate"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.89738,
+        "lon": 128.84828,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": true,
+      "matchNote": "정문 앞 위치의 근거를 확인하지 못했어요."
+    },
+    {
+      "id": "store-cu",
+      "type": "convenience",
+      "name": {
+        "ko": "CU",
+        "en": "CU"
+      },
+      "nearbyBuilding": {
+        "ko": "정문 앞 길 건너",
+        "en": "Across the road from the main gate"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.89724,
+        "lon": 128.84828,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": true,
+      "matchNote": "정문 앞 위치의 근거를 확인하지 못했어요."
+    },
+    {
+      "id": "store-seven-eleven",
+      "type": "convenience",
+      "name": {
+        "ko": "세븐일레븐",
+        "en": "7-Eleven"
+      },
+      "nearbyBuilding": {
+        "ko": "향토생활관",
+        "en": "Hyangto Residence Hall"
+      },
+      "buildingOsmId": 468961809,
+      "location": {
+        "lat": 35.90589,
+        "lon": 128.84324,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": false,
+      "matchNote": null,
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "11:00",
+        "close": "01:00"
+      }
+    },
+    {
+      "id": "other-post-office",
+      "type": "other",
+      "name": {
+        "ko": "대구대학교 우편취급국",
+        "en": "Daegu University Postal Service Office"
+      },
+      "nearbyBuilding": {
+        "ko": "정보통신관",
+        "en": "Information and Communication Building"
+      },
+      "buildingOsmId": 115835356,
+      "location": {
+        "lat": 35.89972,
+        "lon": 128.8507,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": [],
+      "locationNeedsReview": false,
+      "operatingHours": null
+    },
+    {
+      "id": "other-azit",
+      "type": "other",
+      "name": {
+        "ko": "AZIT 메이커스페이스",
+        "en": "AZIT Makerspace"
+      },
+      "nearbyBuilding": {
+        "ko": "공과대학 6호관",
+        "en": "College of Engineering Building 6"
+      },
+      "buildingOsmId": 115845190,
+      "location": {
+        "lat": 35.90024,
+        "lon": 128.85565,
+        "accuracy": "approximate"
+      },
+      "floorHint": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "lounge-ace",
+      "type": "lounge",
+      "name": {
+        "ko": "ACE 라운지",
+        "en": "ACE Lounge"
+      },
+      "department": {
+        "ko": "인문대학",
+        "en": "College of Humanities"
+      },
+      "nearbyBuilding": {
+        "ko": "인문대학 1,2호관",
+        "en": "Humanities Building 1,2"
+      },
+      "buildingOsmId": 115823490,
+      "location": {
+        "lat": 35.89865,
+        "lon": 128.85035,
+        "accuracy": "approximate"
+      },
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    {
+      "id": "lounge-clife",
+      "type": "lounge",
+      "name": {
+        "ko": "C-life 라운지",
+        "en": "C-life Lounge"
+      },
+      "department": {
+        "ko": "사범대학",
+        "en": "College of Education"
+      },
+      "nearbyBuilding": {
+        "ko": "사범대학 1호관",
+        "en": "College of Education Building 1"
+      },
+      "buildingOsmId": 115823484,
+      "location": {
+        "lat": 35.90025,
+        "lon": 128.84645,
+        "accuracy": "approximate"
+      },
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "17:00"
+      }
+    },
+    {
+      "id": "lounge-rehappy",
+      "type": "lounge",
+      "name": {
+        "ko": "Re-happy 라운지",
+        "en": "Re-happy Lounge"
+      },
+      "department": {
+        "ko": "재활과학대학",
+        "en": "College of Rehabilitation Sciences"
+      },
+      "nearbyBuilding": {
+        "ko": "재활과학대학 1호관",
+        "en": "College of Rehabilitation Sciences Building 1"
+      },
+      "buildingOsmId": 115845185,
+      "location": {
+        "lat": 35.9001,
+        "lon": 128.8531,
+        "accuracy": "approximate"
+      },
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    {
+      "id": "lounge-global",
+      "type": "lounge",
+      "name": {
+        "ko": "글로벌라운지",
+        "en": "Global Lounge"
+      },
+      "department": {
+        "ko": "사회과학대학",
+        "en": "College of Social Sciences"
+      },
+      "nearbyBuilding": {
+        "ko": "사회과학대학 1호관",
+        "en": "College of Social Sciences Building 1"
+      },
+      "buildingOsmId": 115707444,
+      "location": {
+        "lat": 35.9013,
+        "lon": 128.8427,
+        "accuracy": "approximate"
+      },
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "17:40"
+      }
+    },
+    {
+      "id": "lounge-it-creative",
+      "type": "lounge",
+      "name": {
+        "ko": "IT 창의융합 라운지",
+        "en": "IT Creative Convergence Lounge"
+      },
+      "department": {
+        "ko": "정보통신대학",
+        "en": "College of Information and Communication"
+      },
+      "nearbyBuilding": {
+        "ko": "공과대학 7호관",
+        "en": "College of Engineering Building 7"
+      },
+      "buildingOsmId": 115845182,
+      "location": {
+        "lat": 35.90025,
+        "lon": 128.8545,
+        "accuracy": "approximate"
+      },
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "08:30",
+        "close": "18:00"
+      }
+    },
+    {
+      "id": "lounge-du-biz",
+      "type": "lounge",
+      "name": {
+        "ko": "DU-BIZ 라운지",
+        "en": "DU-BIZ Lounge"
+      },
+      "department": {
+        "ko": "글로벌경영대학",
+        "en": "College of Global Business"
+      },
+      "nearbyBuilding": {
+        "ko": "경영1관",
+        "en": "Business Building 1"
+      },
+      "buildingOsmId": 115835373,
+      "location": {
+        "lat": 35.90085,
+        "lon": 128.851,
+        "accuracy": "approximate"
+      },
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    {
+      "id": "lounge-du-global",
+      "type": "lounge",
+      "name": {
+        "ko": "DU Global lounge",
+        "en": "DU Global Lounge"
+      },
+      "department": {
+        "ko": "디자인예술대학",
+        "en": "College of Design and Arts"
+      },
+      "nearbyBuilding": {
+        "ko": "조형예술대학제5호관",
+        "en": "College of Fine Arts Building 5"
+      },
+      "buildingOsmId": 115823473,
+      "location": {
+        "lat": 35.8987,
+        "lon": 128.8471,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "20:00"
+      }
+    },
+    {
+      "id": "lounge-sagwageuru",
+      "type": "lounge",
+      "name": {
+        "ko": "사과그루라운지",
+        "en": "Sagwageuru Lounge"
+      },
+      "department": {
+        "ko": "사회과학대학",
+        "en": "College of Social Sciences"
+      },
+      "nearbyBuilding": {
+        "ko": "사회과학대학 2호관",
+        "en": "College of Social Sciences Building 2"
+      },
+      "buildingOsmId": 115812699,
+      "location": {
+        "lat": 35.90132,
+        "lon": 128.84252,
+        "accuracy": "approximate"
+      },
+      "operatingHours": null
+    },
+    {
+      "id": "lounge-beophaengdae",
+      "type": "lounge",
+      "name": {
+        "ko": "법행대라운지",
+        "en": "Law and Public Administration Lounge"
+      },
+      "department": {
+        "ko": "법과대·행정대",
+        "en": "College of Law and Public Administration"
+      },
+      "nearbyBuilding": {
+        "ko": "법과대, 행정대",
+        "en": "College of Law and Public Administration"
+      },
+      "buildingOsmId": 115704236,
+      "location": {
+        "lat": 35.90269,
+        "lon": 128.84359,
+        "accuracy": "approximate"
+      },
+      "operatingHours": null,
+      "locationNeedsReview": true,
+      "matchNote": "공공인재관과 지도 건물명이 달라 법과대, 행정대를 임시 기준으로 사용해요."
+    },
+    {
+      "id": "lounge-natural",
+      "type": "lounge",
+      "name": {
+        "ko": "내추럴라운지",
+        "en": "Natural Lounge"
+      },
+      "department": {
+        "ko": "생명환경대학",
+        "en": "College of Life and Environment"
+      },
+      "nearbyBuilding": {
+        "ko": "자연과학생명관",
+        "en": "Natural Science and Life Building"
+      },
+      "buildingOsmId": 115823456,
+      "location": {
+        "lat": 35.89912,
+        "lon": 128.84836,
+        "accuracy": "approximate"
+      },
+      "operatingHours": null,
+      "locationNeedsReview": true,
+      "matchNote": "과학생명융합대학 5호관과 지도 건물명이 달라 자연과학생명관을 임시 기준으로 사용해요."
+    },
+    {
+      "id": "cafe-ing",
+      "type": "cafe",
+      "name": {
+        "ko": "카페ING",
+        "en": "Cafe ING"
+      },
+      "nearbyBuilding": {
+        "ko": "대구대학교 본관",
+        "en": "Daegu University Main Building"
+      },
+      "buildingOsmId": 115624471,
+      "location": {
+        "lat": 35.90328,
+        "lon": 128.85128,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "성산홀 본관의 새 명칭을 지도 본관 좌표에 임시 연결했어요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "cafe-eeum",
+      "type": "cafe",
+      "name": {
+        "ko": "카페이음",
+        "en": "Cafe Eum"
+      },
+      "nearbyBuilding": {
+        "ko": "인재양성관",
+        "en": "Talent Development Hall"
+      },
+      "buildingOsmId": 115707442,
+      "location": {
+        "lat": 35.90328,
+        "lon": 128.84288,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "진로취업관의 지도 건물명을 확인하지 못해 인재양성관을 임시 기준으로 사용해요.",
+      "operatingHours": {
+        "label": "학기중",
+        "days": [],
+        "open": "08:30",
+        "close": "18:00"
+      },
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "cafe-grazia",
+      "type": "cafe",
+      "name": {
+        "ko": "그라찌에",
+        "en": "Grazie"
+      },
+      "nearbyBuilding": {
+        "ko": "종합복지관",
+        "en": "General Welfare Building"
+      },
+      "buildingOsmId": 115835366,
+      "location": {
+        "lat": 35.89934,
+        "lon": 128.85256,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "food-student",
+      "type": "cafe",
+      "name": {
+        "ko": "학생식당",
+        "en": "Student Cafeteria"
+      },
+      "nearbyBuilding": {
+        "ko": "종합복지관",
+        "en": "General Welfare Building"
+      },
+      "buildingOsmId": 115835366,
+      "location": {
+        "lat": 35.89934,
+        "lon": 128.85256,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "food-faculty",
+      "type": "cafe",
+      "name": {
+        "ko": "교직원식당",
+        "en": "Faculty Cafeteria"
+      },
+      "nearbyBuilding": {
+        "ko": "종합복지관",
+        "en": "General Welfare Building"
+      },
+      "buildingOsmId": 115835366,
+      "location": {
+        "lat": 35.899440000000006,
+        "lon": 128.85246,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "food-burgerking",
+      "type": "cafe",
+      "name": {
+        "ko": "버거킹",
+        "en": "Burger King"
+      },
+      "nearbyBuilding": {
+        "ko": "종합복지관",
+        "en": "General Welfare Building"
+      },
+      "buildingOsmId": 115835366,
+      "location": {
+        "lat": 35.89924,
+        "lon": 128.85246,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "food-subway",
+      "type": "cafe",
+      "name": {
+        "ko": "써브웨이",
+        "en": "Subway"
+      },
+      "nearbyBuilding": {
+        "ko": "자연과학생명관",
+        "en": "Natural Science and Life Building"
+      },
+      "buildingOsmId": 115823456,
+      "location": {
+        "lat": 35.89912,
+        "lon": 128.84836,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "과학생명융합대학 3호관의 지도 건물명을 확인하지 못해 자연과학생명관을 임시 기준으로 사용해요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "food-stella",
+      "type": "cafe",
+      "name": {
+        "ko": "스텔라 푸드코트",
+        "en": "Stella Food Court"
+      },
+      "nearbyBuilding": {
+        "ko": "행복기숙사 상가",
+        "en": "Happy Residence Hall Shops"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.8979,
+        "lon": 128.85,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에 행복기숙사 상가 건물이 없어 정문 오른쪽 캠퍼스 안쪽에 대략 표시해요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "11:00",
+        "close": "20:00"
+      },
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "store-emart-free",
+      "type": "convenience",
+      "name": {
+        "ko": "이마트24",
+        "en": "emart24"
+      },
+      "nearbyBuilding": {
+        "ko": "자유열람관",
+        "en": "Open Reading Hall"
+      },
+      "buildingOsmId": 115823475,
+      "location": {
+        "lat": 35.90167,
+        "lon": 128.84819000000002,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "store-emart-welfare",
+      "type": "convenience",
+      "name": {
+        "ko": "이마트24",
+        "en": "emart24"
+      },
+      "nearbyBuilding": {
+        "ko": "종합복지관",
+        "en": "General Welfare Building"
+      },
+      "buildingOsmId": 115835366,
+      "location": {
+        "lat": 35.89934,
+        "lon": 128.85256,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "store-emart-happy",
+      "type": "convenience",
+      "name": {
+        "ko": "이마트24",
+        "en": "emart24"
+      },
+      "nearbyBuilding": {
+        "ko": "행복기숙사 상가",
+        "en": "Happy Residence Hall Shops"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.8979,
+        "lon": 128.85,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에 행복기숙사 상가 건물이 없어 정문 오른쪽 캠퍼스 안쪽에 대략 표시해요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-bank",
+      "type": "other",
+      "name": {
+        "ko": "iM뱅크",
+        "en": "iM Bank"
+      },
+      "nearbyBuilding": {
+        "ko": "대구대학교 본관",
+        "en": "Daegu University Main Building"
+      },
+      "buildingOsmId": 115624471,
+      "location": {
+        "lat": 35.903380000000006,
+        "lon": 128.85118,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "성산홀 1층의 지도 건물명을 확인하지 못해 본관을 임시 기준으로 사용해요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:30",
+        "close": "16:30"
+      },
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-health",
+      "type": "other",
+      "name": {
+        "ko": "보건진료소",
+        "en": "Health Center"
+      },
+      "nearbyBuilding": {
+        "ko": "인재양성관",
+        "en": "Talent Development Hall"
+      },
+      "buildingOsmId": 115707442,
+      "location": {
+        "lat": 35.90328,
+        "lon": 128.84298,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "진로취업관의 지도 건물명을 확인하지 못해 인재양성관을 임시 기준으로 사용해요.",
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금"
+        ],
+        "open": "09:00",
+        "close": "17:00"
+      },
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-student-store",
+      "type": "other",
+      "name": {
+        "ko": "학생백화점",
+        "en": "Student Store"
+      },
+      "nearbyBuilding": {
+        "ko": "제1학생회관",
+        "en": "Student Center 1"
+      },
+      "buildingOsmId": 115823454,
+      "location": {
+        "lat": 35.90128,
+        "lon": 128.8468,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에서는 제1학생회관으로 연결했어요. 실제 명칭은 웅지관이에요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-copy-woongji",
+      "type": "other",
+      "name": {
+        "ko": "복사실",
+        "en": "Copy Room"
+      },
+      "nearbyBuilding": {
+        "ko": "제1학생회관",
+        "en": "Student Center 1"
+      },
+      "buildingOsmId": 115823454,
+      "location": {
+        "lat": 35.90128,
+        "lon": 128.8468,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에서는 제1학생회관으로 연결했어요. 실제 명칭은 웅지관이에요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-glasses",
+      "type": "other",
+      "name": {
+        "ko": "안경점",
+        "en": "Optical Shop"
+      },
+      "nearbyBuilding": {
+        "ko": "제1학생회관",
+        "en": "Student Center 1"
+      },
+      "buildingOsmId": 115823454,
+      "location": {
+        "lat": 35.90128,
+        "lon": 128.8468,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에서는 제1학생회관으로 연결했어요. 실제 명칭은 웅지관이에요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-copy-stationery",
+      "type": "other",
+      "name": {
+        "ko": "복사실 문구점",
+        "en": "Copy and Stationery Shop"
+      },
+      "nearbyBuilding": {
+        "ko": "종합복지관",
+        "en": "General Welfare Building"
+      },
+      "buildingOsmId": 115835366,
+      "location": {
+        "lat": 35.89934,
+        "lon": 128.85256,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-daiso",
+      "type": "other",
+      "name": {
+        "ko": "다이소",
+        "en": "Daiso"
+      },
+      "nearbyBuilding": {
+        "ko": "행복기숙사 상가",
+        "en": "Happy Residence Hall Shops"
+      },
+      "buildingOsmId": null,
+      "location": {
+        "lat": 35.8979,
+        "lon": 128.85,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에 행복기숙사 상가 건물이 없어 정문 오른쪽 캠퍼스 안쪽에 대략 표시해요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "other-reading-room",
+      "type": "other",
+      "name": {
+        "ko": "자유열람관",
+        "en": "Open Reading Hall"
+      },
+      "nearbyBuilding": {
+        "ko": "자유열람관",
+        "en": "Open Reading Hall"
+      },
+      "buildingOsmId": 115823475,
+      "location": {
+        "lat": 35.90167,
+        "lon": 128.84809,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": false,
+      "operatingHours": {
+        "days": [
+          "월",
+          "화",
+          "수",
+          "목",
+          "금",
+          "토",
+          "일"
+        ],
+        "open": "06:00",
+        "close": "23:00"
+      },
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "lounge-engineering-e",
+      "type": "lounge",
+      "name": {
+        "ko": "공과대학 E라운지",
+        "en": "College of Engineering E Lounge"
+      },
+      "nearbyBuilding": {
+        "ko": "공과대학본부동",
+        "en": "College of Engineering Administration Building"
+      },
+      "buildingOsmId": 684955367,
+      "location": {
+        "lat": 35.89907,
+        "lon": 128.8552,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "공과대학 E라운지의 정확한 호관을 확인하지 못해 공과대학본부동을 임시 기준으로 사용해요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    },
+    {
+      "id": "food-woongji",
+      "type": "cafe",
+      "name": {
+        "ko": "웅지관 식당",
+        "en": "Woongji Hall Cafeteria"
+      },
+      "nearbyBuilding": {
+        "ko": "제1학생회관",
+        "en": "Student Center 1"
+      },
+      "buildingOsmId": 115823454,
+      "location": {
+        "lat": 35.90128,
+        "lon": 128.8468,
+        "accuracy": "approximate"
+      },
+      "locationNeedsReview": true,
+      "matchNote": "지도에서는 제1학생회관으로 연결했어요. 실제 명칭은 웅지관이에요.",
+      "operatingHours": null,
+      "amenities": [],
+      "locationSuggestions": []
+    }
+  ]
+}

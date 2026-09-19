@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "fakeExample": true,
+    "purpose": "발표용 가짜 예시 데이터",
+    "createdAt": "2026-09-17",
+    "note": "실제 신고나 실제 이용자 정보가 아니며, 이름·학번·전화번호·이메일을 넣지 않았습니다."
+  },
+  "lostAndFound": [
+    { "id": "seed-lost-01", "kind": "lost", "category": "이어폰", "title": "검정 무선 이어폰을 잃어버렸어요", "description": "중앙도서관 근처에서 떨어뜨린 것 같아요.", "location": { "lat": 35.90192, "lon": 128.84882, "label": "창파도서관 근처" }, "status": "접수", "empathyCount": 8, "createdAt": "2026-09-17T09:10:00+09:00" },
+    { "id": "seed-found-02", "kind": "found", "category": "학생증", "title": "학생증을 주웠어요", "description": "학생회관 앞 벤치 옆에서 주웠어요.", "location": { "lat": 35.9013, "lon": 128.84688, "label": "제1학생회관 앞" }, "status": "확인중", "empathyCount": 6, "createdAt": "2026-09-17T08:35:00+09:00" },
+    { "id": "seed-lost-03", "kind": "lost", "category": "지갑", "title": "갈색 카드지갑을 잃어버렸어요", "description": "사회과학대학 1호관에서 본 뒤로 안 보여요.", "location": { "lat": 35.90139, "lon": 128.84274, "label": "사회과학대학 1호관" }, "status": "접수", "empathyCount": 9, "createdAt": "2026-09-16T17:20:00+09:00" },
+    { "id": "seed-found-04", "kind": "found", "category": "우산", "title": "투명 우산을 주웠어요", "description": "비 오는 날 본관 계단에 놓여 있었어요.", "location": { "lat": 35.90328, "lon": 128.85118, "label": "본관 계단" }, "status": "확인중", "empathyCount": 3, "createdAt": "2026-09-16T15:40:00+09:00" },
+    { "id": "seed-lost-05", "kind": "lost", "category": "텀블러", "title": "은색 텀블러를 잃어버렸어요", "description": "인문대학 라운지에 두고 온 것 같아요.", "location": { "lat": 35.89861, "lon": 128.85015, "label": "인문대학 1,2호관" }, "status": "접수", "empathyCount": 5, "createdAt": "2026-09-16T13:15:00+09:00" },
+    { "id": "seed-found-06", "kind": "found", "category": "충전기", "title": "아이폰 충전기를 주웠어요", "description": "공학관 2층 스터디 공간에 있었어요.", "location": { "lat": 35.90019, "lon": 128.85446, "label": "공과대학 7호관" }, "status": "확인중", "empathyCount": 7, "createdAt": "2026-09-16T11:50:00+09:00" },
+    { "id": "seed-lost-07", "kind": "lost", "category": "필통", "title": "하늘색 필통을 잃어버렸어요", "description": "사범대학 1호관 강의실 주변이에요.", "location": { "lat": 35.90029, "lon": 128.84653, "label": "사범대학 1호관" }, "status": "접수", "empathyCount": 2, "createdAt": "2026-09-16T10:05:00+09:00" },
+    { "id": "seed-found-08", "kind": "found", "category": "학생증", "title": "학생증 한 장을 주웠어요", "description": "법과대 행정대 건물 입구에 있었어요.", "location": { "lat": 35.90269, "lon": 128.84359, "label": "법과대, 행정대" }, "status": "접수", "empathyCount": 4, "createdAt": "2026-09-15T18:10:00+09:00" },
+    { "id": "seed-lost-09", "kind": "lost", "category": "이어폰", "title": "한 쪽 이어폰을 잃어버렸어요", "description": "재활과학대학에서 학생회관 사이에요.", "location": { "lat": 35.89995, "lon": 128.85304, "label": "재활과학대학" }, "status": "확인중", "empathyCount": 6, "createdAt": "2026-09-15T16:25:00+09:00" },
+    { "id": "seed-found-10", "kind": "found", "category": "지갑", "title": "검정 반지갑을 주웠어요", "description": "조형예술대학 건물 앞 화단에서 주웠어요.", "location": { "lat": 35.90298, "lon": 128.84567, "label": "조형예술대학 2호관" }, "status": "확인중", "empathyCount": 8, "createdAt": "2026-09-15T14:45:00+09:00" },
+    { "id": "seed-lost-11", "kind": "lost", "category": "우산", "title": "검정 장우산을 잃어버렸어요", "description": "생명환경대학 쪽 정류장에 두고 온 것 같아요.", "location": { "lat": 35.90215, "lon": 128.85702, "label": "생명환경대학 2호관" }, "status": "접수", "empathyCount": 1, "createdAt": "2026-09-15T12:30:00+09:00" },
+    { "id": "seed-found-12", "kind": "found", "category": "텀블러", "title": "초록색 텀블러를 주웠어요", "description": "공과대학 본부동 로비에 놓여 있어요.", "location": { "lat": 35.89907, "lon": 128.8552, "label": "공과대학본부동" }, "status": "확인중", "empathyCount": 5, "createdAt": "2026-09-15T11:20:00+09:00" },
+    { "id": "seed-lost-13", "kind": "lost", "category": "충전기", "title": "노트북 충전기를 잃어버렸어요", "description": "정보통신관 강의실 근처에서 못 찾겠어요.", "location": { "lat": 35.89961, "lon": 128.85056, "label": "정보통신관" }, "status": "접수", "empathyCount": 7, "createdAt": "2026-09-15T10:40:00+09:00" },
+    { "id": "seed-found-14", "kind": "found", "category": "필통", "title": "검정 필통을 주웠어요", "description": "경상대학관 복도 의자 아래에 있었어요.", "location": { "lat": 35.90083, "lon": 128.85112, "label": "경상대학관" }, "status": "확인중", "empathyCount": 0, "createdAt": "2026-09-15T09:15:00+09:00" },
+    { "id": "seed-lost-15", "kind": "lost", "category": "학생증", "title": "학생증을 잃어버렸어요", "description": "창파도서관 1층에서 마지막으로 봤어요.", "location": { "lat": 35.90192, "lon": 128.84882, "label": "창파도서관 1층" }, "status": "접수", "empathyCount": 9, "createdAt": "2026-09-15T08:50:00+09:00" },
+    { "id": "seed-found-16", "kind": "found", "category": "우산", "title": "작은 접이식 우산을 주웠어요", "description": "입지2호관 앞에서 주웠어요.", "location": { "lat": 35.90539, "lon": 128.8446, "label": "입지2호관 앞" }, "status": "확인중", "empathyCount": 4, "createdAt": "2026-09-15T08:10:00+09:00" }
+  ],
+  "faultReports": [
+    { "id": "seed-fault-01", "category": "콘센트", "title": "도서관 2층 콘센트가 안 돼요", "description": "창가 쪽 두 자리가 작동하지 않아요.", "location": { "lat": 35.90192, "lon": 128.84882, "label": "창파도서관 2층" }, "status": "접수", "empathyCount": 8, "createdAt": "2026-09-17T09:00:00+09:00" },
+    { "id": "seed-fault-02", "category": "빔프로젝터", "title": "공학관 빔프로젝터 화면이 흐려요", "description": "수업 시작 전에 확인 부탁드려요.", "location": { "lat": 35.90019, "lon": 128.85446, "label": "공과대학 7호관" }, "status": "확인중", "empathyCount": 6, "createdAt": "2026-09-17T08:20:00+09:00" },
+    { "id": "seed-fault-03", "category": "에어컨", "title": "인문대 1층 에어컨이 너무 약해요", "description": "바람이 거의 안 나와요.", "location": { "lat": 35.89861, "lon": 128.85015, "label": "인문대학 1,2호관 1층" }, "status": "접수", "empathyCount": 9, "createdAt": "2026-09-16T17:35:00+09:00" },
+    { "id": "seed-fault-04", "category": "의자", "title": "강의실 의자 하나가 흔들려요", "description": "앉으면 계속 삐걱거려요.", "location": { "lat": 35.90139, "lon": 128.84274, "label": "사회과학대학 1호관" }, "status": "확인중", "empathyCount": 5, "createdAt": "2026-09-16T16:50:00+09:00" },
+    { "id": "seed-fault-05", "category": "와이파이", "title": "학생회관 2층 와이파이가 끊겨요", "description": "점심시간부터 계속 느려요.", "location": { "lat": 35.9013, "lon": 128.84688, "label": "제1학생회관 2층" }, "status": "접수", "empathyCount": 7, "createdAt": "2026-09-16T14:20:00+09:00" },
+    { "id": "seed-fault-06", "category": "콘센트", "title": "라운지 콘센트 두 개가 안 돼요", "description": "소파 옆 자리에서 확인했어요.", "location": { "lat": 35.90029, "lon": 128.84653, "label": "사범대학 1호관" }, "status": "수리완료", "empathyCount": 4, "createdAt": "2026-09-16T12:15:00+09:00" },
+    { "id": "seed-fault-07", "category": "빔프로젝터", "title": "프로젝터 리모컨이 안 먹어요", "description": "전원은 켜지는데 버튼이 반응하지 않아요.", "location": { "lat": 35.90269, "lon": 128.84359, "label": "법과대, 행정대" }, "status": "확인중", "empathyCount": 3, "createdAt": "2026-09-16T10:10:00+09:00" },
+    { "id": "seed-fault-08", "category": "에어컨", "title": "재활과학대학 강의실이 너무 더워요", "description": "에어컨 바람이 약한 것 같아요.", "location": { "lat": 35.89995, "lon": 128.85304, "label": "재활과학대학" }, "status": "접수", "empathyCount": 8, "createdAt": "2026-09-15T17:00:00+09:00" },
+    { "id": "seed-fault-09", "category": "의자", "title": "도서관 의자 등받이가 빠졌어요", "description": "3층 열람실 안쪽 자리예요.", "location": { "lat": 35.90192, "lon": 128.84882, "label": "창파도서관 3층" }, "status": "수리완료", "empathyCount": 2, "createdAt": "2026-09-15T15:25:00+09:00" },
+    { "id": "seed-fault-10", "category": "와이파이", "title": "생명환경대학 쪽 인터넷이 느려요", "description": "오후부터 연결이 자주 끊겨요.", "location": { "lat": 35.90271, "lon": 128.85615, "label": "생명환경대학 1호관" }, "status": "확인중", "empathyCount": 6, "createdAt": "2026-09-15T13:45:00+09:00" },
+    { "id": "seed-fault-11", "category": "콘센트", "title": "스터디룸 벽 쪽 콘센트가 안 돼요", "description": "충전이 안 되고 불도 안 들어와요.", "location": { "lat": 35.89961, "lon": 128.85056, "label": "정보통신관" }, "status": "접수", "empathyCount": 1, "createdAt": "2026-09-15T11:05:00+09:00" },
+    { "id": "seed-fault-12", "category": "에어컨", "title": "경상대학관 에어컨 수리됐나요?", "description": "아직 바람이 약해서 확인 부탁드려요.", "location": { "lat": 35.90083, "lon": 128.85112, "label": "경상대학관" }, "status": "수리완료", "empathyCount": 5, "createdAt": "2026-09-15T09:30:00+09:00" }
+  ]
+}

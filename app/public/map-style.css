@@ -1,0 +1,35 @@
+/* 두레이더 지도 색. app.css 뒤에 불러서 지도 도형 색만 덮어쓴다 (클래스 이름은 짓다 app.js 가 붙이는 그대로) */
+
+/* 밝은 화면 */
+#map.leaflet-container,
+.leaflet-container { background: #eef2ec !important; }
+.farmland-shape { fill: #e5eed8; fill-opacity: 1; stroke: #d6e4c6; stroke-width: 0.6; }
+.forest-shape { fill: #d2e5c0; fill-opacity: 1; stroke: none; }
+.park-shape { fill: #d8ebc6; fill-opacity: 1; stroke: none; }
+.campus-boundary-path { fill: #d7e6f7; stroke: #a3bfe0; stroke-width: 1.6; }
+.water-shape { fill: #a3cdef; fill-opacity: 1; stroke: #86b9e3; stroke-width: 1; }
+.river-shape { stroke: #8dbfe8 !important; stroke-width: 2.2; }
+.road-shape { stroke: #ffffff; }
+.road-논밭길 { stroke: #fbfcf7; stroke-dasharray: 5 5; }
+.building-shape { fill: #f7f9fd; fill-opacity: 1; stroke: #9db2d0; stroke-width: 1; }
+.parking-shape { fill: #e2e8f8; fill-opacity: 1; stroke: #b2bfe4; stroke-width: 1; }
+.sport-shape { fill: #cde3ad; fill-opacity: 1; stroke: #ffffff; stroke-width: 1.6; }
+.track-shape { fill: #ecd9c1; fill-opacity: 1; stroke: #ffffff; stroke-width: 1.6; }
+.bus-dot { fill: #4361ee; stroke: #ffffff; stroke-width: 1.5; }
+
+/* 어두운 화면 */
+.leaflet-dark-map.leaflet-container,
+html[data-theme="dark"] .leaflet-container { background: #0e1522 !important; }
+.leaflet-dark-map .farmland-shape { fill: #16221a; stroke: #1f3024; }
+.leaflet-dark-map .forest-shape { fill: #15261c; }
+.leaflet-dark-map .park-shape { fill: #182a1e; }
+.leaflet-dark-map .campus-boundary-path { fill: #15213a; stroke: #2f4a73; }
+.leaflet-dark-map .water-shape { fill: #1b4063; stroke: #25557f; }
+.leaflet-dark-map .river-shape { stroke: #2f6a9a !important; }
+.leaflet-dark-map .road-shape { stroke: #2c3c58; }
+.leaflet-dark-map .road-논밭길 { stroke: #25324a; }
+.leaflet-dark-map .building-shape { fill: #1d2b44; stroke: #3d5579; }
+.leaflet-dark-map .parking-shape { fill: #232f55; stroke: #43528a; }
+.leaflet-dark-map .sport-shape { fill: #1f3a28; stroke: #2c4a35; }
+.leaflet-dark-map .track-shape { fill: #3a3126; stroke: #4b3f30; }
+.leaflet-dark-map .bus-dot { fill: #7d92ff; stroke: #0e1522; }

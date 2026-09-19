@@ -1,0 +1,15 @@
+{
+  "name": "두레이더",
+  "short_name": "두레이더",
+  "description": "대구대학교 경산캠퍼스 지도 커뮤니티",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5f7",
+  "theme_color": "#5368f5",
+  "icons": [
+    { "src": "./icons/du-radar-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/du-radar-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

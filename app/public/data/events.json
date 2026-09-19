@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "service": "DU Radar",
+    "area": {
+      "ko": "대구대학교 경산캠퍼스",
+      "en": "Daegu University Gyeongsan Campus"
+    },
+    "collectedAt": "2026-09-17",
+    "collectionMode": "manual one-time collection",
+    "noticeLimitPerInstitution": 5,
+    "missingValue": null,
+    "note": "원문에서 확인되지 않은 기간·장소·마감은 추측하지 않고 null로 기록했습니다."
+  },
+  "institutions": [
+    {
+      "id": "rise",
+      "name": {
+        "ko": "RISE사업단",
+        "en": "RISE Program"
+      },
+      "website": "https://rise.daegu.ac.kr",
+      "noticeUrl": "https://rise.daegu.ac.kr/article/NOTICE/list",
+      "collectionStatus": "success",
+      "office": {
+        "name": {
+          "ko": "RISE사업단 행정실",
+          "en": "RISE Program Office"
+        },
+        "room": "산학협력단본관 4층 1411호",
+        "building": {
+          "ko": "경북테크노파크",
+          "en": "Gyeongbuk Technopark",
+          "osmId": 115845197,
+          "center": [
+            35.89801,
+            128.85247
+          ]
+        },
+        "positionNote": {
+          "ko": "지도에는 산학협력단본관 대신 바로 옆 경북테크노파크 건물 좌표를 기준으로 표시합니다.",
+          "en": "The map uses the adjacent Gyeongbuk Technopark coordinate because the Industry-Academic Cooperation main building is not separately named in the map data."
+        }
+      },
+      "events": [
+        {
+          "id": "rise-225928",
+          "kind": "program",
+          "title": {
+            "ko": "2026년 기업공감 원스톱 카운슬링 프로그램 공고",
+            "en": "2026 One-Stop Business Counseling Program Announcement"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "기업을 대상으로 한 원스톱 상담 프로그램 공고예요.",
+            "en": "An announcement for a one-stop counseling program for businesses."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-17",
+          "originalLink": "https://rise.daegu.ac.kr/article/NOTICE/detail/225928?pageIndex=1"
+        },
+        {
+          "id": "rise-225461",
+          "kind": "education",
+          "title": {
+            "ko": "2026학년도 제2학기 캡스톤디자인 과제 지원사업 공고",
+            "en": "Fall 2026 Capstone Design Project Support Announcement"
+          },
+          "period": "2026-10-01 ~ 2026-12-11",
+          "location": {
+            "ko": "산학협력단본관 4층 앵커(RISE)사업단 행정실 1411호",
+            "en": "Anchor (RISE) Program Office, 4F, Industry-Academic Cooperation Building"
+          },
+          "summary": {
+            "ko": "3·4학년 캡스톤디자인 팀의 과제 수행과 지원금 신청을 안내해요.",
+            "en": "Information about project support and applications for junior and senior capstone teams."
+          },
+          "applicationDeadline": "2026-09-30",
+          "noticeDate": "2026-09-07",
+          "originalLink": "https://rise.daegu.ac.kr/article/NOTICE/detail/225461?pageIndex=1"
+        },
+        {
+          "id": "rise-223586",
+          "kind": "program",
+          "title": {
+            "ko": "2026학년도 지역혁신 통합형 AllSET 기업지원사업 공고",
+            "en": "2026 AllSET Integrated Regional Innovation Business Support Announcement"
+          },
+          "period": "2026-07 ~ 2027-01-08",
+          "location": null,
+          "summary": {
+            "ko": "지역기업의 기술·경영 애로 해결과 맞춤형 기업지원을 추진해요.",
+            "en": "The program supports local businesses with tailored technology and management solutions."
+          },
+          "applicationDeadline": "2026-07-20",
+          "noticeDate": "2026-07-10",
+          "originalLink": "https://rise.daegu.ac.kr/article/NOTICE/detail/223586?pageIndex=1"
+        },
+        {
+          "id": "rise-223522",
+          "kind": "recruitment",
+          "title": {
+            "ko": "26년 글로벌파트너십 거점구축 및 네트워킹 모집 공고",
+            "en": "2026 Global Partnership Hub and Networking Recruitment"
+          },
+          "period": "2026-07-20 ~ 2026-08-21",
+          "location": null,
+          "summary": {
+            "ko": "한·베 대학생이 함께하는 글로벌 창업 인재 양성·네트워킹 프로그램이에요.",
+            "en": "A global entrepreneurship and networking program for Korean and Vietnamese university students."
+          },
+          "applicationDeadline": "2026-07-16 12:00",
+          "noticeDate": "2026-07-08",
+          "originalLink": "https://rise.daegu.ac.kr/article/NOTICE/detail/223522?pageIndex=1"
+        },
+        {
+          "id": "rise-223354",
+          "kind": "notice",
+          "title": {
+            "ko": "2026학년도 RISE사업단 뉴스레터(1호) 발행",
+            "en": "RISE Program Newsletter No. 1 for 2026"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "2026학년도 RISE사업단 뉴스레터 발행 안내예요.",
+            "en": "An announcement about the publication of the 2026 RISE Program newsletter."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-07-02",
+          "originalLink": "https://rise.daegu.ac.kr/article/NOTICE/detail/223354?pageIndex=1"
+        }
+      ]
+    },
+    {
+      "id": "du-huss",
+      "name": {
+        "ko": "DU-HUSS사업단",
+        "en": "DU-HUSS Program"
+      },
+      "website": "https://du-huss.daegu.ac.kr",
+      "noticeUrl": "https://du-huss.daegu.ac.kr/article/HUSS_004/list",
+      "collectionStatus": "success",
+      "office": {
+        "name": {
+          "ko": "HUSS사업단 행정실",
+          "en": "HUSS Program Office"
+        },
+        "room": "인문2관 2103호",
+        "building": {
+          "ko": "인문대학 1,2호관",
+          "en": "Humanities Building 1,2",
+          "osmId": 115823490,
+          "center": [
+            35.89861,
+            128.85015
+          ]
+        }
+      },
+      "events": [
+        {
+          "id": "huss-225138",
+          "kind": "notice",
+          "title": {
+            "ko": "HUSS 교과목 수강방법 및 LMS 안내",
+            "en": "HUSS Course Access and LMS Guide"
+          },
+          "period": "2026년 2학기",
+          "location": null,
+          "summary": {
+            "ko": "HUSS 교과목 수강 방법과 LMS 접속 절차를 안내해요.",
+            "en": "A guide to accessing HUSS courses and using the LMS."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-31",
+          "originalLink": "https://du-huss.daegu.ac.kr/article/HUSS_004/detail/225138?pageIndex=1"
+        },
+        {
+          "id": "huss-225119",
+          "kind": "recruitment",
+          "title": {
+            "ko": "2026학년도 제2학기 Credi-T 탐구커뮤니티 참가자 모집 안내문",
+            "en": "Fall 2026 Credi-T Inquiry Community Recruitment"
+          },
+          "period": "2026년 2학기",
+          "location": null,
+          "summary": {
+            "ko": "Credi-T 탐구커뮤니티 참가자 모집 안내예요.",
+            "en": "A recruitment notice for the Credi-T inquiry community."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-31",
+          "originalLink": "https://du-huss.daegu.ac.kr/article/HUSS_004/detail/225119?pageIndex=1"
+        },
+        {
+          "id": "huss-224388",
+          "kind": "event",
+          "title": {
+            "ko": "제1기 Credi-T Conference 및 제8차 포용사회 정기 포럼",
+            "en": "1st Credi-T Conference and 8th Inclusive Society Forum"
+          },
+          "period": "2026-08-24",
+          "location": null,
+          "summary": {
+            "ko": "Credi-T Conference와 포용사회 정기 포럼 개최 안내예요.",
+            "en": "An announcement for the Credi-T Conference and Inclusive Society Forum."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-10",
+          "originalLink": "https://du-huss.daegu.ac.kr/article/HUSS_004/detail/224388?pageIndex=1"
+        },
+        {
+          "id": "huss-224387",
+          "kind": "event",
+          "title": {
+            "ko": "HUSS포용사회 지산학인재양성협의회 및 정책연구 컨퍼런스",
+            "en": "HUSS Inclusive Society Industry-Academia-Government Talent Council and Policy Research Conference"
+          },
+          "period": "2026-08-18 12:00 ~ 2026-08-19",
+          "location": null,
+          "summary": {
+            "ko": "포용사회 인재양성 협의회와 정책연구 컨퍼런스 안내예요.",
+            "en": "An announcement for the inclusive society talent council and policy research conference."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-10",
+          "originalLink": "https://du-huss.daegu.ac.kr/article/HUSS_004/detail/224387?pageIndex=1"
+        },
+        {
+          "id": "huss-224170",
+          "kind": "education",
+          "title": {
+            "ko": "2026년 2학기 HUSS교과목 오프라인 시험 일정",
+            "en": "Fall 2026 HUSS Course In-Person Exam Schedule"
+          },
+          "period": "2026년 2학기",
+          "location": null,
+          "summary": {
+            "ko": "HUSS 교과목 오프라인 시험 일정과 수강 주의사항을 안내해요.",
+            "en": "The notice provides the in-person exam schedule and course guidance for HUSS classes."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-07-29",
+          "originalLink": "https://du-huss.daegu.ac.kr/article/HUSS_004/detail/224170?pageIndex=1"
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "name": {
+        "ko": "창파도서관",
+        "en": "Changpa Library"
+      },
+      "website": "https://lib.daegu.ac.kr",
+      "noticeUrl": "https://lib.daegu.ac.kr/bbs/list/1",
+      "collectionStatus": "success",
+      "office": {
+        "name": {
+          "ko": "창파도서관",
+          "en": "Changpa Library"
+        },
+        "room": null,
+        "building": {
+          "ko": "창파도서관",
+          "en": "Changpa Library",
+          "osmId": 115823468,
+          "center": [
+            35.90192,
+            128.84882
+          ]
+        }
+      },
+      "events": [
+        {
+          "id": "library-58511",
+          "kind": "event",
+          "title": {
+            "ko": "2026 대학도서관 이용자 만족도 조사 실시 안내",
+            "en": "2026 University Library User Satisfaction Survey"
+          },
+          "period": "2026-09-15 ~ 2026-10-06",
+          "location": {
+            "ko": "온라인 설문",
+            "en": "Online survey"
+          },
+          "summary": {
+            "ko": "대학도서관 이용자 만족도 조사 참여 안내예요.",
+            "en": "An invitation to participate in the university library user satisfaction survey."
+          },
+          "applicationDeadline": "2026-10-06",
+          "noticeDate": "2026-09-11",
+          "originalLink": "https://lib.daegu.ac.kr/bbs/content/1_58511"
+        },
+        {
+          "id": "library-58501",
+          "kind": "notice",
+          "title": {
+            "ko": "전자자원(인용색인DB) 수요조사 참여 안내",
+            "en": "Electronic Resources and Citation Index Database Demand Survey"
+          },
+          "period": null,
+          "location": {
+            "ko": "온라인 설문",
+            "en": "Online survey"
+          },
+          "summary": {
+            "ko": "전자자원과 인용색인DB 수요조사 참여 안내예요.",
+            "en": "An invitation to take part in a demand survey for electronic resources and citation index databases."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-09",
+          "originalLink": "https://lib.daegu.ac.kr/bbs/content/1_58501"
+        },
+        {
+          "id": "library-58427",
+          "kind": "notice",
+          "title": {
+            "ko": "2026학년도 2학기 학술정보원 도서관 운영 시간 안내",
+            "en": "Fall 2026 Academic Information Center Library Hours"
+          },
+          "period": "2026년 2학기",
+          "location": {
+            "ko": "창파도서관",
+            "en": "Changpa Library"
+          },
+          "summary": {
+            "ko": "2026학년도 2학기 도서관 운영 시간을 안내해요.",
+            "en": "The notice provides library operating hours for fall 2026."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-01",
+          "originalLink": "https://lib.daegu.ac.kr/bbs/content/1_58427"
+        },
+        {
+          "id": "library-58537",
+          "kind": "event",
+          "title": {
+            "ko": "대학도서관 이용자 만족도 조사 안내 (경품 있음!)",
+            "en": "University Library User Satisfaction Survey with Prizes"
+          },
+          "period": null,
+          "location": {
+            "ko": "온라인 설문",
+            "en": "Online survey"
+          },
+          "summary": {
+            "ko": "경품이 있는 대학도서관 이용자 만족도 조사 안내예요.",
+            "en": "A university library satisfaction survey with prizes for participants."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-17",
+          "originalLink": "https://lib.daegu.ac.kr/bbs/content/1_58537"
+        },
+        {
+          "id": "library-58527",
+          "kind": "event",
+          "title": {
+            "ko": "2026학년도 학술정보원(도서관) 지역 문학기행 당첨자 안내",
+            "en": "2026 Academic Information Center Regional Literature Trip Winner Notice"
+          },
+          "period": "2026-09-21 11:00 사전교육 및 OT",
+          "location": {
+            "ko": "창파도서관 1층 액티브 러닝 1룸",
+            "en": "Active Learning Room 1, 1F, Changpa Library"
+          },
+          "summary": {
+            "ko": "지역 문학기행 당첨자와 사전교육·OT 일정을 안내해요.",
+            "en": "The notice provides the regional literature trip winners and the pre-trip orientation schedule."
+          },
+          "applicationDeadline": "2026-09-18 불참 의사 전달",
+          "noticeDate": "2026-09-16",
+          "originalLink": "https://lib.daegu.ac.kr/bbs/content/1_58527"
+        }
+      ]
+    },
+    {
+      "id": "university",
+      "name": {
+        "ko": "대학본부",
+        "en": "University Administration"
+      },
+      "website": "https://www.daegu.ac.kr",
+      "noticeUrl": "https://www.daegu.ac.kr/article/DG161/list",
+      "collectionStatus": "success",
+      "office": {
+        "name": {
+          "ko": "대학본부",
+          "en": "University Administration"
+        },
+        "room": null,
+        "building": {
+          "ko": "대구대학교 본관",
+          "en": "Daegu University Main Building",
+          "osmId": 115624471,
+          "center": [
+            35.90328,
+            128.85118
+          ]
+        }
+      },
+      "events": [
+        {
+          "id": "university-668641",
+          "kind": "recruitment",
+          "title": {
+            "ko": "[R-WeSET사업단] 온라인 지역기업 취업로드맵 참가자 모집",
+            "en": "[R-WeSET] Online Local Business Career Roadmap Recruitment"
+          },
+          "period": null,
+          "location": {
+            "ko": "온라인",
+            "en": "Online"
+          },
+          "summary": {
+            "ko": "온라인 지역기업 취업로드맵 참가자 모집 공지예요.",
+            "en": "A recruitment notice for an online career roadmap focused on local businesses."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-17",
+          "originalLink": "https://www.daegu.ac.kr/article/DG161/list",
+          "sourceItemId": "668641",
+          "linkNote": "원문 상세 링크가 목록에서 제공되지 않아 공지 목록 링크와 항목 번호를 기록했습니다."
+        },
+        {
+          "id": "university-668638",
+          "kind": "recruitment",
+          "title": {
+            "ko": "재안내-[차세대] ICEIC2027(일본) 국제학술대회 발표 참가자 모집",
+            "en": "Reminder: Recruitment for Presenters at ICEIC2027 in Japan"
+          },
+          "period": null,
+          "location": {
+            "ko": "일본 국제학술대회",
+            "en": "International conference in Japan"
+          },
+          "summary": {
+            "ko": "ICEIC2027 국제학술대회 발표 참가자 모집 재안내예요.",
+            "en": "A reminder recruiting participants to present at the ICEIC2027 international conference."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-17",
+          "originalLink": "https://www.daegu.ac.kr/article/DG161/list",
+          "sourceItemId": "668638",
+          "linkNote": "원문 상세 링크가 목록에서 제공되지 않아 공지 목록 링크와 항목 번호를 기록했습니다."
+        },
+        {
+          "id": "university-668637",
+          "kind": "education",
+          "title": {
+            "ko": "[SW] X+AI 융합 전문가 특강 및 찾아가는 SW융합 설명회(2차) 참가 안내",
+            "en": "[SW] X+AI Convergence Expert Lecture and Mobile SW Convergence Briefing, Round 2"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "X+AI 융합 전문가 특강과 찾아가는 SW융합 설명회 참가 안내예요.",
+            "en": "An invitation to an X+AI convergence lecture and a mobile SW convergence briefing."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-16",
+          "originalLink": "https://www.daegu.ac.kr/article/DG161/list",
+          "sourceItemId": "668637",
+          "linkNote": "원문 상세 링크가 목록에서 제공되지 않아 공지 목록 링크와 항목 번호를 기록했습니다."
+        },
+        {
+          "id": "university-668631",
+          "kind": "education",
+          "title": {
+            "ko": "[취업] 반도체 취업완성반 10분 설명회 수요조사 및 신청안내",
+            "en": "[Career] Semiconductor Job Completion Class: 10-Minute Briefing Survey and Registration"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "반도체 취업완성반 10분 설명회 수요조사와 신청 방법을 안내해요.",
+            "en": "Information about the demand survey and registration for a 10-minute semiconductor career briefing."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-16",
+          "originalLink": "https://www.daegu.ac.kr/article/DG161/list",
+          "sourceItemId": "668631",
+          "linkNote": "원문 상세 링크가 목록에서 제공되지 않아 공지 목록 링크와 항목 번호를 기록했습니다."
+        },
+        {
+          "id": "university-668622",
+          "kind": "recruitment",
+          "title": {
+            "ko": "장애인식개선 캠페인 함께 만드는 더 나은 캠퍼스 자원봉사자 모집",
+            "en": "Volunteer Recruitment for the Better Campus Disability Awareness Campaign"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "더 나은 캠퍼스를 만드는 장애인식개선 캠페인 자원봉사자 모집이에요.",
+            "en": "A volunteer recruitment notice for a disability awareness campaign to build a better campus."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-16",
+          "originalLink": "https://www.daegu.ac.kr/article/DG161/list",
+          "sourceItemId": "668622",
+          "linkNote": "원문 상세 링크가 목록에서 제공되지 않아 공지 목록 링크와 항목 번호를 기록했습니다."
+        }
+      ]
+    },
+    {
+      "id": "aisw",
+      "name": {
+        "ko": "SW중심대학사업단",
+        "en": "SW-Centered University Program"
+      },
+      "website": "https://aisw.daegu.ac.kr",
+      "noticeUrl": "https://aisw.daegu.ac.kr/article/notice25/list",
+      "collectionStatus": "success",
+      "office": {
+        "name": {
+          "ko": "SW중심대학사업단 행정실",
+          "en": "SW-Centered University Program Office"
+        },
+        "room": "공학7관 2층 7215호",
+        "building": {
+          "ko": "공과대학 7호관 (정보통신대학 2호관)",
+          "en": "College of Engineering Building 7",
+          "osmId": 115845182,
+          "center": [
+            35.90019,
+            128.85446
+          ]
+        }
+      },
+      "events": [
+        {
+          "id": "aisw-225770",
+          "kind": "notice",
+          "title": {
+            "ko": "[선정결과] AI·SW 캡스톤디자인 공모전 선정 결과 안내",
+            "en": "[Selection Results] AI·SW Capstone Design Competition"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "AI·SW 캡스톤디자인 공모전 선정 결과 안내예요.",
+            "en": "The selected projects for the AI·SW capstone design competition are announced."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-09-11",
+          "originalLink": "https://aisw.daegu.ac.kr/article/notice25/detail/225770?pageIndex=1"
+        },
+        {
+          "id": "aisw-225125",
+          "kind": "recruitment",
+          "title": {
+            "ko": "[모집] AI·SW 캡스톤디자인 공모전",
+            "en": "[Recruitment] AI·SW Capstone Design Competition"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "AI·SW 캡스톤디자인 공모전 참가 모집 공지예요.",
+            "en": "A recruitment notice for the AI·SW capstone design competition."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-31",
+          "originalLink": "https://aisw.daegu.ac.kr/article/notice25/detail/225125?pageIndex=1"
+        },
+        {
+          "id": "aisw-224707",
+          "kind": "education",
+          "title": {
+            "ko": "[자격증 취득] 제26회 TOPCIT 정기평가 안내",
+            "en": "[Certification] 26th TOPCIT Regular Assessment"
+          },
+          "period": "2026-10-10",
+          "location": null,
+          "summary": {
+            "ko": "제26회 TOPCIT 정기평가 일정을 안내해요.",
+            "en": "Information about the 26th regular TOPCIT assessment."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-21",
+          "originalLink": "https://aisw.daegu.ac.kr/article/notice25/detail/224707?pageIndex=1"
+        },
+        {
+          "id": "aisw-224706",
+          "kind": "recruitment",
+          "title": {
+            "ko": "[모집] 2026 D.A.N.C.E Coding Challenge(2학기) 참여자 모집",
+            "en": "[Recruitment] 2026 D.A.N.C.E Coding Challenge, Fall Semester"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "2026학년도 2학기 D.A.N.C.E Coding Challenge 참여자 모집이에요.",
+            "en": "A recruitment notice for the fall 2026 D.A.N.C.E Coding Challenge."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-21",
+          "originalLink": "https://aisw.daegu.ac.kr/article/notice25/detail/224706?pageIndex=1"
+        },
+        {
+          "id": "aisw-224400",
+          "kind": "recruitment",
+          "title": {
+            "ko": "[모집] 모DU의 AI·SW(4차)-바이브코딩 해커톤 참가자 모집",
+            "en": "[Recruitment] MoDU AI·SW Round 4: Vibe Coding Hackathon"
+          },
+          "period": null,
+          "location": null,
+          "summary": {
+            "ko": "바이브코딩 해커톤 참가자 모집 공지예요.",
+            "en": "A recruitment notice for a vibe coding hackathon."
+          },
+          "applicationDeadline": null,
+          "noticeDate": "2026-08-10",
+          "originalLink": "https://aisw.daegu.ac.kr/article/notice25/detail/224400?pageIndex=1"
+        }
+      ]
+    }
+  ]
+}

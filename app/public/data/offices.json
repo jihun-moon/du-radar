@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "service": "DU Radar",
+    "area": { "ko": "대구대학교 경산캠퍼스", "en": "Daegu University Gyeongsan Campus" },
+    "createdAt": "2026-09-17",
+    "source": "사용자 제공 학교 홈페이지 확인 정보와 campus-map.json 건물 좌표",
+    "note": "전화번호는 포함하지 않았습니다. 위치가 확실하지 않은 항목은 위치 확인 필요로 표시합니다."
+  },
+  "offices": [
+    { "id": "public-talent", "name": { "ko": "공공인재대학", "en": "College of Public Talent" }, "room": "공공인재대학 1호관 1층 1106호", "matchedBuilding": { "ko": "법과대, 행정대", "en": "College of Law and Public Administration", "osmId": 115704236, "center": [35.90269,128.84359] }, "locationNeedsReview": true, "matchNote": "공공인재대학의 이전 건물명 후보로 연결했어요." },
+    { "id": "social-sciences", "name": { "ko": "사회과학대학", "en": "College of Social Sciences" }, "room": "사회과학대학 1호관 1212호", "matchedBuilding": { "ko": "사회과학대학1호관", "en": "College of Social Sciences 1", "osmId": 115707444, "center": [35.90139,128.84274] }, "locationNeedsReview": false },
+    { "id": "health-bio", "name": { "ko": "보건바이오대학", "en": "College of Health and Bio Sciences" }, "room": "생명과학3관 1101호", "matchedBuilding": { "ko": "생명환경대학1호관", "en": "College of Life and Environment 1", "osmId": 115835362, "center": [35.90271,128.85615] }, "locationNeedsReview": true, "matchNote": "생명과학3관과 생명환경대학 1호관의 명칭이 달라 위치 확인이 필요해요." },
+    { "id": "it-engineering", "name": { "ko": "IT공과대학", "en": "College of IT and Engineering" }, "room": "공과대학 본부동 3층 0313호", "matchedBuilding": { "ko": "공과대학본부동", "en": "College of Engineering Administration Building", "osmId": 684955367, "center": [35.89907,128.8552] }, "locationNeedsReview": false },
+    { "id": "design-arts", "name": { "ko": "디자인예술대학", "en": "College of Design and Arts" }, "room": "디자인예술2관 1층 2101호", "matchedBuilding": { "ko": "조형예술대학2호관", "en": "College of Fine Arts 2", "osmId": 115823478, "center": [35.90298,128.84567] }, "locationNeedsReview": true, "matchNote": "디자인예술2관을 기존 조형예술대학2호관으로 연결했어요." },
+    { "id": "education", "name": { "ko": "사범대학", "en": "College of Education" }, "room": "사범대학 1호관 1층 1105호", "matchedBuilding": { "ko": "사범대학제1호관", "en": "College of Education Building 1", "osmId": 115823484, "center": [35.90029,128.84653] }, "locationNeedsReview": false },
+    { "id": "rehabilitation", "name": { "ko": "재활과학대학", "en": "College of Rehabilitation Sciences" }, "room": "재활과학대학 1호관 2층 1204호", "matchedBuilding": { "ko": "재활과학대학", "en": "College of Rehabilitation Sciences", "osmId": 115845185, "center": [35.89995,128.85304] }, "locationNeedsReview": true, "matchNote": "지도 데이터에 호수 구분이 없어 건물 전체 좌표로 표시해요." },
+    { "id": "international", "name": { "ko": "국제대학", "en": "College of International Studies" }, "room": "생명과학2관 1층 1106호", "matchedBuilding": { "ko": "생명환경대학2호관", "en": "College of Life and Environment 2", "osmId": 115835372, "center": [35.90215,128.85702] }, "locationNeedsReview": true, "matchNote": "생명과학2관을 기존 생명환경대학2호관으로 임시 연결했어요." },
+    { "id": "global-business", "name": { "ko": "글로벌경영대학", "en": "College of Global Business" }, "room": "경영1관", "matchedBuilding": { "ko": "경상대학관", "en": "College of Economics and Business Administration", "osmId": 115835373, "center": [35.90083,128.85112] }, "locationNeedsReview": true, "matchNote": "경영1관의 지도 건물명이 확인되지 않아 학과사무실이 있는 경상대학관으로 임시 연결했어요." }
+  ]
+}
