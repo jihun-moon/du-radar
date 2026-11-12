@@ -1,5 +1,12 @@
 node_modules/
 *.log
+
+# 비밀값
+.env
+.env.*
+!.env.example
+
+# 편집기·OS
 .DS_Store
 Thumbs.db
 ~$*
